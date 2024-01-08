@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+header {
+    padding: 1em;
+}
+
+img {
+    height: 30px;
+}
+
+h1 {
+    color: rgb(209, 110, 126);
+    display: inline;
+}
+
+/* Main */
+#rightside input {
+    height: 40px;
+    width: 98%;
+    font-size: 1em; 
+    position:fixed;
+    bottom: 10px;
+    border: 2px solid rgb(209, 110, 126);
+    margin-left: 1px;
+}
+
+::placeholder {
+    color: rgb(209, 110, 126);
+}
+
+/* Javascript elements */
+span {
+    background-color: rgba(77, 73, 73, 0.537);
+    border: 2px solid black;
+    height: 4em;
+    width: 100%;
+    display: inline-block; 
+}
+
+input {
+    height: 18px;
+    width: 30px;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+label img {
+    height: 23px;
+    float: left;
+    margin: 23px;
+}
+
+label img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+p {
+    display: inline-block;
+    margin: 25px;
+}
+
+.editimg {
+    float: right;
+    margin: 15px;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.editimg:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+ 
+.deleteimg {
+    height: 23px;
+    float:right;
+    margin: 20px;
+}
+
+.deleteimg:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.tick {
+    height: 26px;
+    float:right;
+    margin: 20px;
+    padding: 0 100px;
+}
+
+.tick:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
